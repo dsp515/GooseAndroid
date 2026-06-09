@@ -1,0 +1,41 @@
+# Built artifacts — KEEP APK, exclude everything else
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Gradle
+.gradle/
+build/
+!app/build/outputs/apk/debug/app-debug.apk
+
+# Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+local.properties
+
+# Keystore files — never commit these
+*.jks
+*.keystore
+
+# Native libs — user must supply
+# app/src/main/jniLibs/arm64-v8a/libgoose_core.so
+
+# Profiling
+captures/
