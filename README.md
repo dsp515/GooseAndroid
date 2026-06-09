@@ -10,6 +10,14 @@
   <img src="https://img.shields.io/badge/Build-Passing-4ADE80?style=for-the-badge" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/dsp515/GooseAndroid/raw/main/Goose.apk">
+    <img src="https://img.shields.io/badge/⬇%20Download%20Goose.apk-27%20MB-4ADE80?style=for-the-badge&logo=android&logoColor=white&labelColor=1a1a2e" alt="Download Goose APK" />
+  </a>
+</p>
+
+> 📲 **Tap the button above** or [click here](https://github.com/dsp515/GooseAndroid/raw/main/Goose.apk) to directly download **Goose.apk** to your Android device.
+
 ---
 
 ## 📖 Overview
@@ -105,7 +113,7 @@ cd GooseAndroid
 adb install app/build/outputs/apk/debug/app-debug.apk
 ```
 
-Or just **[download the latest APK](app/build/outputs/apk/debug/app-debug.apk)** directly.
+Or just **[⬇ Download Goose.apk](https://github.com/dsp515/GooseAndroid/raw/main/Goose.apk)** directly.
 
 ### Adding the Rust Native Library
 
@@ -134,9 +142,9 @@ The app runs in **stub mode** without `libgoose_core.so` (BLE and UI work, score
 
 ## 📦 APK Download
 
-The pre-built debug APK is included in this repository:
+**[⬇ Download Goose.apk](https://github.com/dsp515/GooseAndroid/raw/main/Goose.apk)** — click to download directly (27 MB)
 
-**[`app/build/outputs/apk/debug/app-debug.apk`](app/build/outputs/apk/debug/app-debug.apk)**
+The APK is also available in the repository root: [`Goose.apk`](Goose.apk)
 
 > ⚠️ This is a debug build. It runs in stub mode — BLE connection and all UI screens work fully, but health scores require the Rust `.so` (see above).
 
